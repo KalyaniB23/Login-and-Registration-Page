@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/building">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="500dp"
+        android:layout_height="600dp"
+        android:backgroundTint="@color/black"
+        android:background="#9fff"
+        android:layout_marginTop="300dp">
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Email Address"
+        android:id="@+id/address"
+        android:background="@drawable/btn"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:id="@+id/password"
+        android:background="@drawable/btn"
+        android:layout_marginTop="283dp"
+        android:layout_marginLeft="40dp"
+        android:textColorHint="@color/black"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/btn"
+        android:text="Login"
+        android:id="@+id/login"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:textColor="@color/white"
+        android:layout_below="@+id/login"
+        android:id="@+id/goToSignUp"
+        android:textSize="22sp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Password"
+        android:textColor="@color/white"
+        android:layout_below="@+id/login"
+        android:id="@+id/reset"
+        android:textSize="25sp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="70dp"/>
+
+
+
+</RelativeLayout>
